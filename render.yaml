@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: resume-analyzer
+    runtime: docker
+    plan: free
+    envVars:
+  - key: GROQ_API_KEY
+    sync: false
+    
